@@ -6,7 +6,7 @@ const confirmPasswordInput = document.querySelector("#confirm-password");
 
 form.addEventListener("submit", (event) => {
   //form m jb jiska bhi type submit hoga vo invoke hoga to hi ye eventListener call hoga
-  // isliye hi hmne btn ko tyoe submit diya tha agr ni dete to ye call hi ni hoga
+  // isliye hi hmne btn ko type submit diya tha agr ni dete to ye call hi ni hoga
   // event.preventDefault();
   // if invoked when the cancelable attribute value is true, and while executing a listener for the event with passive set to false, signals to the operation that caused event to be dispatched that it needs to be canceled
   // it basiaclly stops submitting our form
